@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="400" version="1.1" width="600" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Snap</desc>
+  <defs></defs>
+  <path
+      d="M 54.5 40.5 l 124.68629150101523 124.68629150101523 a 16 16 0 0 1 0 22.62741699796952 l -66.52943725152286 66.52943725152285 a 8 8 0 0 0 -2.343145750507621 5.65685424949238 l 0 92 "
+      style="stroke: rgb(8, 136, 56);" fill="none" class="line"></path>
+  <path
+      d="M 40 40 l 138.68629150101523 138.68629150101523 a 16 16 0 0 1 0 22.62741699796952 l -32.37258300203048 32.37258300203048 a 16 16 0 0 0 0 22.62741699796952 l 51.37258300203048 51.37258300203048 a 16 16 0 0 0 11.31370849898476 4.686291501015241 l 400 0 "
+      style="stroke: rgb(92, 184, 73);" fill="none" class="line"></path>
+  <path
+      d="M 25 40 l 140.84314575050763 140.84314575050763 a 8 8 0 0 1 0 11.31370849898476 l -72.02943725152286 72.02943725152286 a 16 16 0 0 0 -4.686291501015241 11.313708498984758 l 0 84 "
+      style="stroke: rgb(216, 106, 168);" fill="none" class="line"></path>
+  <path d="M -10 -4 h 20 a 4 4 0 0 1 0 8 h -20 a 4 4 0 0 1 0 -8" stroke="#000000" fill="#ffffff"
+        transform="matrix(0.7071,-0.7071,0.7071,0.7071,100,100)"></path>
+  <path d="M -10 -4 h 20 a 4 4 0 0 1 0 8 h -20 a 4 4 0 0 1 0 -8" stroke="#000000" fill="#ffffff"
+        transform="matrix(0.7071,0.7071,-0.7071,0.7071,307,72)"></path>
+  <path d="M -15 -4 h 30 a 4 4 0 0 1 0 8 h -30 a 4 4 0 0 1 0 -8" stroke="#000000" fill="#ffffff"
+        transform="matrix(0.7071,0.7071,-0.7071,0.7071,165,205)"></path>
+  <path d="M -8 -4 h 16 a 4 4 0 0 1 0 8 h -16 a 4 4 0 0 1 0 -8" stroke="#000000" fill="#ffffff"
+        transform="matrix(1,0,0,1,99,352)"></path>
+  <path d="M -15 -4 h 30 a 4 4 0 0 1 0 8 h -30 a 4 4 0 0 1 0 -8" stroke="#000000" fill="#ffffff"
+        transform="matrix(0,1,-1,0,315,297)"></path>
+  <path d="M -15 -4 h 30 a 4 4 0 0 1 0 8 h -30 a 4 4 0 0 1 0 -8" stroke="#000000" fill="#ffffff"
+        transform="matrix(0,1,-1,0,552,297)"></path>
+</svg>

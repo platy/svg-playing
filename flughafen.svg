@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     baseProfile="full"
+     width="600" height="200"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="station15">
+      <path d="M -5 -4 h 10 a 4 4 0 0 1 0 8 h -10 a 4 4 0 0 1 0 -8" stroke="black" fill="white" />
+    </g>
+    <g id="station3">
+      <path d="M -10 -4 h 20 a 4 4 0 0 1 0 8 h -20 a 4 4 0 0 1 0 -8" stroke="black" fill="white" />
+    </g>
+  </defs>
+
+
+  <use id="wassmannsdorf" xlink:href="#station15" transform="translate(36,149) rotate(0)"/>
+  <text x="46" y="156" font-family="geneva" font-style="italic" font-size="18" text-anchor="start" fill="black">Wassmannsdorf</text>
+
+  <use id="brandenburg" xlink:href="#station3" transform="translate(256,170.5) rotate(90)"/>
+  <text x="260" y="175" font-family="geneva" font-style="italic" font-size="18" text-anchor="start" fill="black">Flughafen Berlin Brandenburg Airport</text>
+
+  <use id="schoenefeld" xlink:href="#station3" transform="translate(322,76) rotate(45)"/>
+  <text x="300" y="76" font-family="geneva" font-weight="bold" font-size="18" text-anchor="end" fill="black">Flughafen Berlin-Schoenefeld</text>
+
+</svg>

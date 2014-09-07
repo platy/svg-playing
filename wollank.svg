@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     baseProfile="full"
+     width="600" height="400"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="station2">
+      <path d="M -8 -4 h 16 a 4 4 0 0 1 0 8 h -16 a 4 4 0 0 1 0 -8" stroke="black" fill="white" />
+    </g>
+    <g id="station3">
+      <path d="M -10 -4 h 20 a 4 4 0 0 1 0 8 h -20 a 4 4 0 0 1 0 -8" stroke="black" fill="white" />
+    </g>
+    <g id="station4">
+      <path d="M -15 -4 h 30 a 4 4 0 0 1 0 8 h -30 a 4 4 0 0 1 0 -8" stroke="black" fill="white" />
+    </g>
+  </defs>
+
+  <!-- Wollank strasse -->
+  <path d="M 54.5 40.5 l 124.0 124.0 a 16 16 0 0 1 0 22.6 m 140 -140 l -212.5 212.5 a 8 8 0 0 0 -2.35 5.6 v 100"
+        stroke-width="5" style="stroke:#088838" fill="none" />
+  <path d="M 40.0 40.0 l 138.0 138.0 a 16 16 0 0 1 0 22.6 m 140 -140 l -163 163 a 16 16 0 0 0 0 22.6 l 42 42 a 16 16 0 0 0 11.3 4.7 h 400"
+        stroke-width="5" style="stroke:#5CB849" fill="none" />
+  <path d="M 25 40 l 138.5 138.5 a  8  8 0 0 1 0 11.3 l -65 65 a 16 16 0 0 0 -4.7 11.3 v 100"
+        stroke-width="5" style="stroke:#D86AA8" fill="none" />
+  <path d="M 313 78 l -152 152.0 a  8  8 0 0 0 0 11.3 l 40 40 a 8 8 0 0 0 5.6 2.35 h 400"
+        stroke-width="5" style="stroke:#8a0e30 " fill="none" />
+  <path d="M 315 78 v 300"
+        stroke-width="5" style="stroke:#ff3300" fill="none" />
+  <path d="M 0 301 h 600"
+        stroke-width="5" style="stroke:c26a36" fill="none" />
+  <path d="M 0 310 h 600"
+        stroke-width="5" style="stroke:a23b1e" fill="none" />
+
+  <use id="wollank" xlink:href="#station3" transform="translate(100,100) rotate(-45)"/>
+  <text x="111" y="89" font-family="geneva" font-size="18" text-anchor="start" fill="black">Wollankstr.</text>
+
+  <use id="pankow" xlink:href="#station3" transform="translate(307,72) rotate(45)"/>
+
+  <use id="bornholmer" xlink:href="#station4" transform="translate(165,205) rotate(45)" />
+
+  <use id="gesundbrunnen" xlink:href="#station4" transform="translate(102,305) rotate(45)" />
+
+  <use id="humbolthain" xlink:href="#station2" transform="translate(99,352)" />
+
+  <use id="schoenhauser" xlink:href="#station4" transform="translate(315,297) rotate(90)" />
+
+  <use id="prenzlauer" xlink:href="#station4" transform="translate(552,297) rotate(90)" />
+</svg>
