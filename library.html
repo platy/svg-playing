@@ -4,16 +4,27 @@
   <meta charset="UTF-8">
   <title></title>
   <script src="js/snap.svg.js"></script>
-  <link rel="stylesheet" href="map.css" type="text/css"/>
+  <script src="js/berlinmap.js"></script>
 </head>
 <body>
-<script src="js/berlinmap.js"></script>
+<svg id="map" height="400" version="1.1" width="600" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" media="screen">
+  <![CDATA[
+.line {
+    stroke-width: 5px;
+  }
+  ]]></style>
+</svg>
 <script>
-b = new BerlinMap(600, 400);
+b = new BerlinMap("#map");
 
 b.line(54.5, 40.5).se(136).turn(16).sw(90.5).turn(8).ss(100).draw('#088838');
 b.line(40, 40).se(149.4).turn(16).sw(46).turn(16).se(63).turn(16).ee(416).draw('#5CB849');
 b.line(25, 40).se(144.2).turn(8).sw(82).turn(16).ss(116).draw('#D86AA8');
+b.line(313, 78).sw(157).turn(8).se(50).turn(8).ee(408).draw('#8a0e30');
+b.line(315, 78).ss(300).draw('#ff3300');
+b.line(0, 301).ee(600).draw('#c26a36');
+b.line(0, 310).ee(600).draw('#a23b1e');
 
 wollank = b.station(100, 100, -45, 3);
 pankow = b.station(307, 72, 45, 3);
@@ -21,21 +32,8 @@ bornholmer = b.station(165, 205, 45, 4);
 humbolthain = b.station(99, 352, 0, 2);
 schoenhauser = b.station(315, 297, 90, 4);
 prenzlaur = b.station(552, 297, 90, 4);
+gesundbrunnen = b.station(102, 305, 45, 4);
 
-//<path d="M 54.5 40.5 l 124.0 124.0 a 16 16 0 0 1 0 22.6 m 140 -140 l -212.5 212.5 a 8 8 0 0 0 -2.35 5.6 v 100"
-//stroke-width="5" style="stroke:#088838" fill="none" />
-//    <path d="M 40.0 40.0 l 138.0 138.0 a 16 16 0 0 1 0 22.6 m 140 -140 l -163 163 a 16 16 0 0 0 0 22.6 l 42 42 a 16 16 0 0 0 11.3 4.7 h 400"
-//stroke-width="5" style="stroke:#5CB849" fill="none" />
-//    <path d="M 25 40 l 138.5 138.5 a  8  8 0 0 1 0 11.3 l -65 65 a 16 16 0 0 0 -4.7 11.3 v 100"
-//stroke-width="5" style="stroke:#D86AA8" fill="none" />
-//    <path d="M 313 78 l -152 152.0 a  8  8 0 0 0 0 11.3 l 40 40 a 8 8 0 0 0 5.6 2.35 h 400"
-//stroke-width="5" style="stroke:#8a0e30 " fill="none" />
-//    <path d="M 315 78 v 300"
-//stroke-width="5" style="stroke:#ff3300" fill="none" />
-//    <path d="M 0 301 h 600"
-//stroke-width="5" style="stroke:c26a36" fill="none" />
-//    <path d="M 0 310 h 600"
-//stroke-width="5" style="stroke:a23b1e" fill="none" />
 </script>
 </body >
 </html >
