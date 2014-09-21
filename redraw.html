@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="js/snap.svg.js"></script>
+  <script src="js/mapsnap.js"></script>
+</head>
+<body>
+<svg id="map" height="400" version="1.1" width="600" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" media="screen">
+    .line {
+      stroke-width: 5px;
+      fill: none;
+    }
+
+    .s1 {
+      stroke: #D86AA8;
+    }
+
+    .s2 {
+      stroke: #088838;
+    }
+
+    .s8 {
+      stroke: #5CB849;
+    }
+
+    .u2 {
+      stroke: #ff3300;
+    }
+
+    .s9 {
+      stroke: #8a0e30;
+    }
+
+    .s41 {
+      stroke: #a23b1e;
+    }
+
+    .s42 {
+      stroke: #c26a36;
+    }
+
+    .test {
+      stroke: yellow;
+    }
+  </style>
+</svg>
+<script>
+  b = new BerlinMap("#map");
+  b.line('s2', 54.5, 40.5).se(136).turn(16).sw(90.5).turn(8).ss(110);
+  b.line('s2', 170.5, 196.5).ne(150);
+  b.line('s8', 40, 40).se(149.4).turn(16).sw(46).turn(16).se(63).turn(16).ee(416);
+  b.line('s8', 169.4, 209.4).ne(150);
+  b.line('s1', 25, 40).se(144.2).turn(8).sw(82).turn(16).ss(116);
+  b.line('s9', 313, 78).sw(157).turn(8).se(50).turn(8).ee(408);
+  b.line('u2', 315, 78).ss(300);
+  b.line('s41', 0, 310).ee(600);
+  b.line('s42', 0, 301).ee(600);
+  wollank = b.station(100, 100, -45, 3);
+
+  pankow = b.station(307, 72, 45, 3);
+  bornholmer = b.station(165, 205, 45, 4);
+  humbolthain = b.station(99, 352, 0, 2);
+  schoenhauser = b.station(315, 297, 90, 4);
+  prenzlaur = b.station(552, 297, 90, 4);
+  gesundbrunnen = b.station(102, 305, 45, 4);
+
+//  c = b.line('test', 200, 80).se(50).turn(16).sw(100).turn(16).nw(100).turn(16).ne(100).turn(8).se(50);
+//  a = b.line('test', 400, 80).sw(50).turn(16).se(100).turn(16).ne(100).turn(8).nw(100).turn(8).sw(50);
+
+
+</script>
+</body>
+</html>
